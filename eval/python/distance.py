@@ -66,7 +66,7 @@ def distance(W, vocab, ivocab, input_term):
 
 if __name__ == "__main__":
     N = 100 # number of closest words that will be shown
-    W, vocab, ivocab = generate()
+    W, vocab, ivocab = generate(N)
     while True:
         input_term = input("\nEnter word or sentence (EXIT to break): ")
         if input_term == 'EXIT':
